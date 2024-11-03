@@ -11,10 +11,10 @@ void DrawBackgroundGrid(void) {
     int height = GetScreenHeight();
 
     for (int i = 0; i < width; i += CELL_SIZE)
-        DrawLine(0, i, width, i, CELL_BORDER_COLOR);
+        DrawLine(i, 0, i, height, CELL_BORDER_COLOR);
 
     for (int i = 0; i < height; i += CELL_SIZE)
-        DrawLine(i, 0, i, height, CELL_BORDER_COLOR);
+        DrawLine(0, i, width, i, CELL_BORDER_COLOR);
 
     DrawRectangleLines(0, 0, width, height, CELL_BORDER_COLOR);
 }

@@ -1,4 +1,4 @@
-# Árvore Fractal 🌳
+# Árvore Fractal
 
 Este repositório usa a biblioteca Raylib para criar uma visualização de árvores fractais, explorando a beleza dos padrões naturais.
 
